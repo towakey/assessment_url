@@ -1,0 +1,12 @@
+{
+  "name": "assessment_url",
+  "version": "0.0.1",
+  "manifest_version": 1,
+  "description": "",
+  "content_scripts": [{
+      "matches": ["https://www.google.com/search?q=*"],
+      "js": [
+        "content.js"
+      ]
+  }]
+}
